@@ -89,7 +89,9 @@ img{
 .dn{
     display: none;
 }
-
+.cl{
+    flex-direction: column;
+}
 
 /* header */
 .container{
@@ -214,7 +216,7 @@ img{
     text-align: center;
     color: white;
     font-size: 13px;
-    line-height: 30px;
+    line-height: 20px;
 
     .container-small{
         .col-12{
@@ -316,6 +318,23 @@ img{
     .dn{
         display: initial;
     }
+    .lg-left{
+        text-align: left;
+    }
+    .lg-right{
+        text-align: right;
+        padding: 10px;
+
+        a{
+            padding-inline: 5px;
+        }
+    }
+    .lg-row{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 } 
+
 
 
