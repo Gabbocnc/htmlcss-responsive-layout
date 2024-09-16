@@ -41,6 +41,15 @@ img{
 .dflex{
     display: flex;
 }
+.col-3 {
+    width: calc((100% / 12) * 3);
+}
+.col-6 {
+    width: calc((100% / 12) * 6);
+}
+.col-9 {
+    width: calc((100% / 12) * 9);
+}
 .col-12 {
     width: 100%;
 }
@@ -77,6 +86,10 @@ img{
 .adv{
     display: none;
 }
+.dn{
+    display: none;
+}
+
 
 /* header */
 .container{
@@ -185,9 +198,7 @@ img{
             }
             img{
              width: 70%;
-             margin-left: auto;
-             margin-right: auto;
-             display: block;
+             margin: auto;
              margin-top: 20px;    
             }
     }
@@ -261,3 +272,50 @@ img{
         }
     }
 }
+
+
+/* media query desktop */
+ @media screen and (min-width:992px) {
+    
+    .app_main{
+        .container{
+            h4{
+                font-size: 45px;
+            }
+        }
+        
+        .videoyt{
+            iframe{
+                width: 550px;
+                height: 550px;
+            }
+        }
+        
+    }
+    .lgdflex{
+        display: flex;
+    }
+    
+    .white{
+        height: 550px;
+    }
+    
+    .lg-circle{
+        width: 100px;
+        height: 60px;
+        border-radius: 47%;
+        text-align: center;
+        background-color: white;
+        box-shadow: 1px 2px 9px gray;
+        margin-right: 10px;
+    }
+   
+    .md-grid{
+        display: block;
+    }
+    .dn{
+        display: initial;
+    }
+} 
+
+
