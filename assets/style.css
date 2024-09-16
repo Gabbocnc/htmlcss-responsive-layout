@@ -1,0 +1,43 @@
+/* root */
+:root{
+    --main: #ff9614;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* debug */
+.debug *{
+    border: 1px dashed black;
+/* utilities */
+}
+.container{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.row{
+    margin: 0 -1rem;
+}
+[class^="col-"] {
+    padding: 0.5rem;
+}
+.dflex{
+    display: flex;
+}
+.col-12 {
+    width: 100%;
+}
+/* header */
+.container{
+    h1{
+        text-align: center;
+        color: var(--main);
+        font-family: "Nerko One", cursive;
+        font-weight: bold;
+        font-size: 50px;
+    }
+}
