@@ -183,5 +183,25 @@ img{
     }
     .text{
         line-height: 30px;
+        margin-bottom: 30px;
     }
-}      
+}
+}
+
+.app_footer{
+    background-color: var(--footer);
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    line-height: 30px;
+
+    .container-small{
+        .col-12{
+            a{
+                color: white;
+            }
+        }
+    }
+
+
+}
