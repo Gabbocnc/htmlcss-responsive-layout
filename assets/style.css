@@ -1,6 +1,9 @@
 /* root */
 :root{
-    --main: #ff9614;
+    --primary: #ff9614;
+    --footer: #7c69a4;
+    --bg-main: #f6f5f3;
+    --light-grey: #b9cadc;
 
 }
 
@@ -8,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat","Helvetica Neue",sans-serif;
 }
 /* debug */
 .debug *{
@@ -35,9 +39,23 @@
 .container{
     h1{
         text-align: center;
-        color: var(--main);
+        color: var(--primary);
         font-family: "Nerko One", cursive;
         font-weight: bold;
         font-size: 50px;
+    }
+}
+/* main */
+.app_main{
+    background-color: var(--bg-main);
+
+    .container{
+        p{
+            font-size: 15px;
+            color: var(--light-grey);
+        }
+        h4{
+            font-size: 30px;
+        }
     }
 }
