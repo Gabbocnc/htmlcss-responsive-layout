@@ -66,11 +66,16 @@ img{
     width: 40px;
     height: 40px;
     border-radius: 47%;
-    background-color: rgb(255, 0, 0);
     text-align: center;
     padding: 12px;
     background-color: white;
     box-shadow: 1px 2px 9px gray
+}
+.traditional{
+    display: none;
+}
+.adv{
+    display: none;
 }
 
 /* header */
@@ -82,6 +87,7 @@ img{
         font-weight: bold;
         font-size: 50px;
     }
+    
 }
 /* main */
 .app_main{
@@ -148,7 +154,11 @@ img{
             padding: 30px;
             ul{
                 list-style: none;
-                line-height: 35px;    
+                line-height: 35px;
+
+                i{
+                    color: var(--primary);
+                }
             }
         }
         .fa-facebook{
@@ -204,4 +214,50 @@ img{
     }
 
 
+}
+
+/* mediaquery medium 768px*/
+@media screen and (min-width:768px){
+    .container{
+        h1{
+           text-align: left;
+        }
+    }
+    .container{
+        width: 90%;
+    } 
+    .container-smal{
+        width: 90%;
+    }
+    .traditional{
+        display: initial;
+    }
+    .md-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    .md-circle{
+        width: 120px;
+        height: 50px;
+        border-radius: 40%;
+        text-align: center;
+        padding: 15px;
+        background-color: white;
+        box-shadow: 1px 2px 9px gray
+    }
+    .md-adv{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .presentation{
+        img{
+            float: left;
+            padding-right: 10px;
+            
+        }
+    }
 }
