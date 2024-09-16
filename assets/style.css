@@ -19,6 +19,9 @@
     box-sizing: border-box;
     font-family: "Montserrat","Helvetica Neue",sans-serif;
 }
+img{
+    max-width: 100%;
+}
 /* debug */
 .debug *{
     border: 1px dashed black;
@@ -65,8 +68,9 @@
     border-radius: 47%;
     background-color: rgb(255, 0, 0);
     text-align: center;
-    padding: 10px;
+    padding: 12px;
     background-color: white;
+    box-shadow: 1px 2px 9px gray
 }
 
 /* header */
@@ -160,4 +164,24 @@
             color: red;
         }
     }
-}       
+   
+    .col-12{
+        .presentation{
+            hr{
+                width: 15%;
+                padding-top: 1px;
+                margin-top: 10px;
+                background-color: var(--primary);
+            }
+            img{
+             width: 70%;
+             margin-left: auto;
+             margin-right: auto;
+             display: block;
+             margin-top: 20px;    
+            }
+    }
+    .text{
+        line-height: 30px;
+    }
+}      
