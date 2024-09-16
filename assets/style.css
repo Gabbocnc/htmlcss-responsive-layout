@@ -8,9 +8,6 @@
     --purple: #7b69a2;
     --twitter: #009eff;
     --instagram: #ebb5c0;
-
-
-
 }
 
 *{
@@ -25,8 +22,9 @@ img{
 /* debug */
 .debug *{
     border: 1px dashed black;
-/* utilities */
+
 }
+/* #region utilities */
 .container{
     width: 100%;
     max-width: 1000px;
@@ -92,6 +90,7 @@ img{
 .cl{
     flex-direction: column;
 }
+/* #endregion utilities */
 
 /* header */
 .container{
@@ -104,7 +103,7 @@ img{
     }
     
 }
-/* main */
+/* #region main */
 .app_main{
     background-color: var(--bg-main);
 
@@ -210,7 +209,8 @@ img{
     }
 }
 }
-
+/* #endregion main */
+/* #region footer */
 .app_footer{
     background-color: var(--footer);
     text-align: center;
@@ -226,8 +226,8 @@ img{
         }
     }
 
-
 }
+/* #endregion footer */
 
 /* mediaquery medium 768px*/
 @media screen and (min-width:768px){
