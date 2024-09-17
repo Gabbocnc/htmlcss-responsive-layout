@@ -301,13 +301,13 @@ img{
     }
     
     .lg-circle{
-        width: 100px;
-        height: 60px;
-        border-radius: 47%;
+        padding: 15px 1px;
+        border-radius: 17px;
         text-align: center;
         background-color: white;
         box-shadow: 1px 2px 9px gray;
-        margin-right: 10px;
+        margin: 4px 2px;
+        
     }
    
     .md-grid{
