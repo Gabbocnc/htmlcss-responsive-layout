@@ -198,13 +198,11 @@ img{
                 background-color: var(--primary);
             }
             img{
-             width: 70%;
-             margin: auto;
-             margin-top: 20px;    
+             width: 50%;
+             margin-top: 40px;    
             }
     }
     .text{
-        line-height: 30px;
         margin-bottom: 30px;
     }
 }
