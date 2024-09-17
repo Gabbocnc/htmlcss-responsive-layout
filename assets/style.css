@@ -139,12 +139,12 @@ img{
 
         .card{
             background-color: var(--bg-main);
-            width: 90%;
             margin: auto;
             margin-bottom: 20px;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 15px;
             padding: 20px;
+
 
 
             .kcal{
@@ -165,7 +165,7 @@ img{
                       
         }
         .container-small{
-            padding: 30px;
+            padding: 15px;
             ul{
                 list-style: none;
                 line-height: 35px;
@@ -199,11 +199,14 @@ img{
             }
             img{
              width: 50%;
-             margin-top: 40px;    
+             margin-top: 40px;
+             display: block;
+             margin-left: auto;
+             margin-right: auto;
             }
     }
     .text{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 }
 }
